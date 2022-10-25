@@ -25,7 +25,7 @@ def collatz(input):
     print(y)
     plt.plot(x, y, label = orginalNumber)
 
-numberBeingSearched = 25
+numberBeingSearched = 100000
 i=1
 while i<=numberBeingSearched: 
     collatz(i)
